@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -7,6 +6,7 @@ function App() {
     <Router>
       <div className="App">
         Hi, I'm cute April!
+        I'll definitely add more details🌺
       </div>
     </Router>
   );
