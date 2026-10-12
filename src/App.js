@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        Hi, I'm cute April!
+        Hi, I'm cute April! <br />
         I'll definitely add more details🌺
       </div>
     </Router>
