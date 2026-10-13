@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 
 .App-logo {
@@ -35,4 +39,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+.box{
+  background-color: #d0f5ffc2;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  border: 5px solid rgba(211, 221, 255, 0.712);
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  white-space: wrap;
+  align-items: center;
+  gap: 25px;
+  overflow: hidden;
+  margin-top: 30px;
+  
+  
+}
+
+.infobox{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button{
+  background-color: pink;
+  border:0px solid transparent;
+  border-radius: 10px;
+  padding: 10px 15px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(177, 115, 125);
+  
+}
+
+.button:hover{
+  background-color: rgb(255, 169, 183);
+}
+
+.image{
+  background-image: url(./Assets/april-image.png);
+  width: 300px;
+  aspect-ratio: 1668/2000;
+  background-size: cover;
+
+}
+
+.button a{
+  text-decoration: none;
+  color: rgb(134, 53, 66);
 }

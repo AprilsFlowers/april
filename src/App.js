@@ -5,12 +5,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        Hi, I'm cute April! <br />
-        I'll definitely add more details🌺
-        Testie Test
-        ah
-        here's some more lines
-        
+
+        <div className='box'>
+          <div className='infobox'>Info</div>
+          <br/>
+          This is my box
+          <br/>
+          Thank you Vesnea for helping me set this up :3
+          <br/>
+          <br/>
+          <button className='button'><a href='https://x.com/shinyprowl'>Click Me</a></button>
+          <div className='image'></div>
+        </div>
 
       </div>
     </Router>
