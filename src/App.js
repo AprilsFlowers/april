@@ -7,6 +7,7 @@ function App() {
       <div className="App">
         Hi, I'm cute April! <br />
         I'll definitely add more details🌺
+        Testie Test
       </div>
     </Router>
   );
